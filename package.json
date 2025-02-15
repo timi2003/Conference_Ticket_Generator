@@ -1,16 +1,16 @@
 {
-   "homepage": ".",
+   "homepage": "https://timi2003.github.io/Conference_Ticket_Generator",
   "name": "conference-ticket-generator",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.6",
