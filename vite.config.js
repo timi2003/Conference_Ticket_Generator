@@ -9,5 +9,8 @@ export default defineConfig({
     react()
   ],
   base: "/Conference_Ticket_Generator",
+  resolve: {
+  extensions: ['.js', '.jsx'],
+  }
 });
  
